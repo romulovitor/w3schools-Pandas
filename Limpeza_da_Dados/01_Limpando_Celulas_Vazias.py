@@ -43,6 +43,6 @@ print(df.to_string(), '\m')
 # Modo = o valor que aparece com mais frequência.
 df = pd.read_csv('data.csv')
 
-x = df["Calories"].mode()[0]
+x = df["idade"].mode()[0]
 
-df["Calories"].fillna(x, inplace = True)
+df["idade"].fillna(x, inplace = True)
